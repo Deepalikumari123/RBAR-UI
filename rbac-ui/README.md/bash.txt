@@ -1,0 +1,18 @@
+1. Setup React Project
+
+
+npx create-react-app rbac-ui
+cd rbac-ui
+npm install axios tailwindcss json-server react-icons
+npx tailwindcss init
+
+
+
+Run the server:
+
+npx json-server --watch mock-server.js --port 5000
+
+
+Start the React app:
+
+npm start
